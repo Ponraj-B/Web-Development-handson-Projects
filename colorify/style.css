@@ -1,0 +1,56 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    color: black;
+}
+
+.colorify
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;   
+}
+
+.circle
+{
+    height: 200px;
+    width: 200px;
+    background-color:  black;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.heading
+{
+    color: black;
+    font-weight: bolder;
+    margin-top: 90px;
+}
+
+.color_button button
+{
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+#red
+{
+    padding-left:25px;
+    padding-right: 25px;
+    background-color: red;
+}
+
+#green
+{
+    background-color: green;
+}
+
+#yellow
+{
+    background-color:yellow;
+}
